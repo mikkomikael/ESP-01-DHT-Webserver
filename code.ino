@@ -7,10 +7,9 @@
 #include <NTPClient.h>
 #include <Time.h>
 #include <TimeLib.h>
-//#include <Timezone.h> //original library
 #include <Timezone_Generic.h>
 
-#define DHTPin 2 //D2-GPIO4 (D1 Mini), D4-GPIO2 (GPIO2 ESP-01S) D4(D1 Mini), D6-GPIO12 (D1 Mini)
+#define DHTPin 2 //DHT pin
 #define DHTTYPE DHT11 //DHT11
 //#define DHTTYPE DHT22 //DHT22 (AM2302)
 DHT dht(DHTPin, DHTTYPE);
