@@ -22,8 +22,8 @@ DHT dht(DHTPin, DHTTYPE);
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, NTP_ADDRESS, NTP_OFFSET, NTP_INTERVAL);
 
-const char* ssid = "..."; //change SSID
-const char* password = "Schglieksareout7"; //change PASSWORD
+const char* ssid = "SSID"; //change SSID
+const char* password = "PASSWORD"; //change PASSWORD
 
 float Temperature = 0;
 float Humidity = 0;
